@@ -9,10 +9,9 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <title>Portfolio Guillaume Boyer</title>
 </head>
-<!-- -->
 
-<body class="box-border max-w-4xl mx-auto bg-gradient-to-b from-blue-800 to-cyan-700 text-white">
-  <header class="grid content-center w-full" id="haut">
+<body class="box-border mx-auto bg-gradient-to-b from-slate-200 to-blue-400 text-white">
+  <header class="grid content-center rounded-2xl w-full" id="haut">
     <nav class="sm:flex">
       <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
@@ -43,18 +42,21 @@
               </svg>
             </button>
           </div>
-          <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+          <div class="flex flex-1 items-center justify-center sm:justify-start">
+            <div class="block w-20">
+              <img src="/images/AlbedoBase_XL_Graphics_design_logo_with_blue_tons_and_transpar_1-removebg-preview.png" alt="logo Guillaume Boyer">
+            </div>
             <div class="hidden sm:ml-6 sm:block">
               <div class="flex space-x-4">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                 <a href="index.html" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
                   aria-current="page">Home</a>
                 <a href="#apropos"
-                  class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About</a>
+                  class="rounded-md px-3 py-2 text-sm font-medium text-slate-800 hover:bg-gray-700 hover:text-white">About</a>
                 <a href="#projects"
-                  class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
+                  class="rounded-md px-3 py-2 text-sm font-medium text-slate-800 hover:bg-gray-700 hover:text-white">Projects</a>
                 <a href="#contact"
-                  class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
+                  class="rounded-md px-3 py-2 text-sm font-medium text-slate-800 hover:bg-gray-700 hover:text-white">Contact</a>
               </div>
             </div>
           </div>
@@ -70,35 +72,57 @@
           <a href="index.html" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
             aria-current="page">Home</a>
           <a href="#apropos"
-            class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About</a>
+            class="block rounded-md px-3 py-2 text-base font-medium text-slate-800 hover:bg-gray-700 hover:text-white">About</a>
           <a href="#projects"
-            class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
+            class="block rounded-md px-3 py-2 text-base font-medium text-slate-800 hover:bg-gray-700 hover:text-white">Projects</a>
           <a href="#contact"
-            class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
+            class="block rounded-md px-3 py-2 text-base font-medium text-slate-800 hover:bg-gray-700 hover:text-white">Contact</a>
         </div>
       </div>
     </nav>
 
-    <div class="grid w-full h-64 content-center bg-[url('images/4085078.jpg')] rounded-2xl bg-cover" id="animation">
+    <div class="baniere img-fluid grid w-full h-96 content-center bg-cover bg-no-repeat">
       <div>
-        <h1 class="text-4xl font-extrabold m-4 p-4 font-serif"><span
-            class="bg-clip-text text-transparent bg-gradient-to-r from-teal-200 to-violet-200">Guillaume Boyer</span>
+        <h1 class="text-4xl font-extrabold m-4 p-4 font-serif md:my-12 md:mx-4"><span
+            class="bg-clip-text text-transparent bg-orange-400">Guillaume Boyer</span>
         </h1>
       </div>
       <div class="justify-self-end">
-        <h3 class="text-2xl font-semibold m-4 p-4 font-serif"><span
-            class="bg-clip-text text-transparent bg-gradient-to-r from-violet-200 to-teal-200">Développeur Web et Web
-            mobile</span></h3>
+        <h3 class="text-3xl font-bold m-4 p-4 font-serif md:my-12 md:mx-4"><span
+            class="bg-clip-text text-transparent bg-orange-400">Développeur Web Fullstack</span></h3>
       </div>
     </div>
   </header>
-
+  <section class="bg-black scroll flex" style="--t:20s">
+    <div class="flex py-6 items-center gap-x-4 md:gap-x-8 z-0">
+      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/html-1.svg" alt="html">
+      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/css-3.svg" alt="css">
+      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/javascript-1.svg" alt="js">
+      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/PHP-logo.svg" alt="php">
+      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/bootstrap-5-1.svg" alt="bootstrap">
+      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/vue-9.svg" alt="vue">
+      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/symfony.svg" alt="symfony">
+      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/git-icon.svg" alt="git">
+      <img class="max-h-16 w-auto mx-1 object-contain" src="/images/techno/docker-4.svg" alt="docker">
+    </div>
+    <div class="flex py-6 items-center gap-x-4 md:gap-x-8 z-0">
+      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/html-1.svg" alt="html">
+      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/css-3.svg" alt="css">
+      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/javascript-1.svg" alt="js">
+      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/PHP-logo.svg" alt="php">
+      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/bootstrap-5-1.svg" alt="bootstrap">
+      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/vue-9.svg" alt="vue">
+      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/symfony.svg" alt="symfony">
+      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/git-icon.svg" alt="git">
+      <img class="max-h-16 w-auto mx-1 object-contain" src="/images/techno/docker-4.svg" alt="docker">
+    </div>
+  </section>
   <main>
-    <section class="m-2 md:pb-8 rounded-2xl z-0 shadow-md shadow-white">
+    <section class="md:pb-8 bg-orange-100 shadow-md shadow-white">
       <h3 id="apropos"
-        class="text-xl font-semibold m-2 p-4 font-serif flex justify-center text-teal-100 hover:underline underline-offset-4 hover:font-bold hover:text-teal-200">
+        class="text-xl font-semibold p-4 font-serif flex justify-center text-teal-300 hover:underline underline-offset-4 hover:font-bold hover:text-teal-500">
         A propos</h3>
-      <div class="mx-2 px-4 lg:mx-8 z-10">
+      <div class="mx-2 px-4 lg:mx-8 z-10 text-black">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nihil distinctio autem quam amet
           ratione ipsam earum commodi dicta accusamus, assumenda sapiente? Aliquid atque natus enim similique
           nostrum ullam voluptates.
@@ -111,213 +135,17 @@
           Architecto repudiandae non odit blanditiis laboriosam explicabo quis nobis dolores nisi recusandae
           expedita iste at, ullam ducimus possimus praesentium sequi eius earum nulla! Nulla corporis magni
           aperiam ipsum cupiditate beatae!</p>
-        <div></div>
-      </div>
-      <!-- <div class="bg-indigo-500 opacity-50 w-40 h-40 absolute top-10 left-24 -z-20 rounded-xl "></div> -->
+      </div>    
     </section>
-    <section>
-      <h3 id="competences"
-        class="text-xl font-semibold m-2 p-4 font-serif flex justify-center text-teal-100 hover:underline underline-offset-4 hover:font-bold hover:text-teal-200">
-        Compétences</h3>
-      <article>
-        <h3 class="flex justify-center p-2 font-semibold text-cyan-300">Language de programmation</h3>
-        <div class="grid justify-center">
-          <div class="flex flex-wrap content-center">
-            <div class="m-1 md:m-5">
-              <svg fill="none" class="w-16 md:w-20" xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 124 141.53199999999998">
-                <path d="M10.383 126.894L0 0l124 .255-10.979 126.639-50.553 14.638z" fill="#e34f26" />
-                <path d="M62.468 129.277V12.085l51.064.17-9.106 104.851z" fill="#ef652a" />
-                <path
-                  d="M99.49 41.362l1.446-15.49H22.383l4.34 47.49h54.213L78.81 93.617l-17.362 4.68-17.617-5.106-.936-12.085H27.319l2.128 24.681 32 8.936 32.255-8.936 4.34-48.17H41.107L39.49 41.362z"
-                  fill="#fff" />
-              </svg>
-            </div>
-            <div class="m-1 md:m-5">
-              <svg fill="none" class="w-16 md:w-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124 141.53">
-                <path d="M10.383 126.892L0 0l124 .255-10.979 126.637-50.553 14.638z" fill="#1b73ba" />
-                <path d="M62.468 129.275V12.085l51.064.17-9.106 104.85z" fill="#1c88c7" />
-                <path
-                  d="M100.851 27.064H22.298l2.128 15.318h37.276l-36.68 15.745 2.127 14.808h54.043l-1.958 20.68-18.298 3.575-16.595-4.255-1.277-11.745H27.83l2.042 24.426 32.681 9.106 31.32-9.957 4-47.745H64.765l36.085-14.978z"
-                  fill="#fff" />
-              </svg>
-            </div>
-            <div class="m-1 md:m-5">
-              <svg fill="none" class="w-16 md:w-20" xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 124 141.53199999999998">
-                <path d="M10.383 126.894L0 0l124 .255-10.979 126.639-50.553 14.638z" fill="#e9ca32" />
-                <path d="M62.468 129.277V12.085l51.064.17-9.106 104.851z" fill="#ffde25" />
-                <g fill="#fff">
-                  <path
-                    d="M57 26H43.5v78L33 102V91.5l-12.5-2V113l36.5 9.5zM67.127 26H104.5L102 40.95H81.394v24.533H102L99.5 115l-32.373 7.5V107L89 99.5 90.263 79l-23.136 3.35z" />
-                </g>
-              </svg>
-            </div>
-            <div class="m-1 md:m-5">
-              <svg class="w-24 md:w-28" id="svg3430" version="1.1" viewBox="0 0 711.20123 383.5975" xml:space="preserve"
-                xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#"
-                xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                xmlns:svg="http://www.w3.org/2000/svg">
-                <title id="title3510">Official PHP Logo</title>
-                <metadata id="metadata3436">
-                  <rdf:RDF>
-                    <cc:Work rdf:about="">
-                      <dc:format>image/svg+xml</dc:format>
-                      <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-                      <dc:title>Official PHP Logo</dc:title>
-                      <dc:creator>
-                        <cc:Agent>
-                          <dc:title>Colin Viebrock</dc:title>
-                        </cc:Agent>
-                      </dc:creator>
-                      <dc:description />
-                      <dc:contributor>
-                        <cc:Agent>
-                          <dc:title />
-                        </cc:Agent>
-                      </dc:contributor>
-                      <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
-                      <dc:rights>
-                        <cc:Agent>
-                          <dc:title>Copyright Colin Viebrock 1997 - All rights reserved.</dc:title>
-                        </cc:Agent>
-                      </dc:rights>
-                      <dc:date>1997</dc:date>
-                    </cc:Work>
-                    <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
-                      <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction" />
-                      <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution" />
-                      <cc:requires rdf:resource="http://creativecommons.org/ns#Notice" />
-                      <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution" />
-                      <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
-                      <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike" />
-                    </cc:License>
-                  </rdf:RDF>
-                </metadata>
-                <defs id="defs3434">
-                  <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3444">
-                    <path
-                      d="M 11.52,162 C 11.52,81.677 135.307,16.561 288,16.561 l 0,0 c 152.693,0 276.481,65.116 276.481,145.439 l 0,0 c 0,80.322 -123.788,145.439 -276.481,145.439 l 0,0 C 135.307,307.439 11.52,242.322 11.52,162"
-                      id="path3446" />
-                  </clipPath>
-                  <radialGradient cx="0" cy="0" fx="0" fy="0"
-                    gradientTransform="matrix(363.05789,0,0,-363.05789,177.52002,256.30713)"
-                    gradientUnits="userSpaceOnUse" id="radialGradient3452" r="1" spreadMethod="pad">
-                    <stop id="stop3454" offset="0" style="stop-opacity:1;stop-color:#aeb2d5" />
-                    <stop id="stop3456" offset="0.3" style="stop-opacity:1;stop-color:#aeb2d5" />
-                    <stop id="stop3458" offset="0.75" style="stop-opacity:1;stop-color:#484c89" />
-                    <stop id="stop3460" offset="1" style="stop-opacity:1;stop-color:#484c89" />
-                  </radialGradient>
-                  <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3468">
-                    <path d="M 0,324 576,324 576,0 0,0 0,324 Z" id="path3470" />
-                  </clipPath>
-                  <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3480">
-                    <path d="M 0,324 576,324 576,0 0,0 0,324 Z" id="path3482" />
-                  </clipPath>
-                </defs>
-                <g id="g3438" transform="matrix(1.25,0,0,-1.25,-4.4,394.29875)">
-                  <g id="g3440">
-                    <g clip-path="url(#clipPath3444)" id="g3442">
-                      <g id="g3448">
-                        <g id="g3450">
-                          <path
-                            d="M 11.52,162 C 11.52,81.677 135.307,16.561 288,16.561 l 0,0 c 152.693,0 276.481,65.116 276.481,145.439 l 0,0 c 0,80.322 -123.788,145.439 -276.481,145.439 l 0,0 C 135.307,307.439 11.52,242.322 11.52,162"
-                            id="path3462" style="fill:url(#radialGradient3452);stroke:none" />
-                        </g>
-                      </g>
-                    </g>
-                  </g>
-                  <g id="g3464">
-                    <g clip-path="url(#clipPath3468)" id="g3466">
-                      <g id="g3472" transform="translate(288,27.3594)">
-                        <path
-                          d="M 0,0 C 146.729,0 265.68,60.281 265.68,134.641 265.68,209 146.729,269.282 0,269.282 -146.729,269.282 -265.68,209 -265.68,134.641 -265.68,60.281 -146.729,0 0,0"
-                          id="path3474" style="fill:#777bb3;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-                      </g>
-                    </g>
-                  </g>
-                  <g id="g3476">
-                    <g clip-path="url(#clipPath3480)" id="g3478">
-                      <g id="g3484" transform="translate(161.7344,145.3066)">
-                        <path
-                          d="m 0,0 c 12.065,0 21.072,2.225 26.771,6.611 5.638,4.341 9.532,11.862 11.573,22.353 1.903,9.806 1.178,16.653 -2.154,20.348 C 32.783,53.086 25.417,55 14.297,55 L -4.984,55 -15.673,0 0,0 Z m -63.063,-67.75 c -0.895,0 -1.745,0.4 -2.314,1.092 -0.57,0.691 -0.801,1.601 -0.63,2.48 L -37.679,81.573 C -37.405,82.982 -36.17,84 -34.734,84 L 26.32,84 C 45.508,84 59.79,78.79 68.767,68.513 77.792,58.182 80.579,43.741 77.05,25.592 75.614,18.198 73.144,11.331 69.709,5.183 66.27,-0.972 61.725,-6.667 56.198,-11.747 49.582,-17.939 42.094,-22.429 33.962,-25.071 25.959,-27.678 15.681,-29 3.414,-29 l -24.722,0 -7.06,-36.322 c -0.274,-1.41 -1.508,-2.428 -2.944,-2.428 l -31.751,0 z"
-                          id="path3486" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-                      </g>
-                      <g id="g3488" transform="translate(159.2236,197.3071)">
-                        <path
-                          d="m 0,0 16.808,0 c 13.421,0 18.083,-2.945 19.667,-4.7 2.628,-2.914 3.124,-9.058 1.435,-17.767 C 36.012,-32.217 32.494,-39.13 27.452,-43.012 22.29,-46.986 13.898,-49 2.511,-49 L -9.523,-49 0,0 Z m 28.831,35 -61.055,0 c -2.872,0 -5.341,-2.036 -5.889,-4.855 l -28.328,-145.751 c -0.342,-1.759 0.12,-3.578 1.259,-4.961 1.14,-1.383 2.838,-2.183 4.63,-2.183 l 31.75,0 c 2.873,0 5.342,2.036 5.89,4.855 l 6.588,33.895 22.249,0 c 12.582,0 23.174,1.372 31.479,4.077 8.541,2.775 16.399,7.48 23.354,13.984 5.752,5.292 10.49,11.232 14.08,17.657 3.591,6.427 6.171,13.594 7.668,21.302 3.715,19.104 0.697,34.402 -8.969,45.466 C 63.965,29.444 48.923,35 28.831,35 m -45.633,-90 19.313,0 c 12.801,0 22.336,2.411 28.601,7.234 6.266,4.824 10.492,12.875 12.688,24.157 2.101,10.832 1.144,18.476 -2.871,22.929 C 36.909,3.773 28.87,6 16.808,6 L -4.946,6 -16.802,-55 M 28.831,29 C 47.198,29 60.597,24.18 69.019,14.539 77.44,4.898 79.976,-8.559 76.616,-25.836 75.233,-32.953 72.894,-39.46 69.601,-45.355 66.304,-51.254 61.999,-56.648 56.679,-61.539 50.339,-67.472 43.296,-71.7 35.546,-74.218 27.796,-76.743 17.925,-78 5.925,-78 l -27.196,0 -7.531,-38.75 -31.75,0 28.328,145.75 61.055,0"
-                          id="path3490" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-                      </g>
-                      <g id="g3492" transform="translate(311.583,116.3066)">
-                        <path
-                          d="m 0,0 c -0.896,0 -1.745,0.4 -2.314,1.092 -0.571,0.691 -0.802,1.6 -0.631,2.48 L 9.586,68.061 C 10.778,74.194 10.484,78.596 8.759,80.456 7.703,81.593 4.531,83.5 -4.848,83.5 L -27.55,83.5 -43.305,2.428 C -43.579,1.018 -44.814,0 -46.25,0 l -31.5,0 c -0.896,0 -1.745,0.4 -2.315,1.092 -0.57,0.691 -0.801,1.601 -0.63,2.48 l 28.328,145.751 c 0.274,1.409 1.509,2.427 2.945,2.427 l 31.5,0 c 0.896,0 1.745,-0.4 2.315,-1.091 0.57,-0.692 0.801,-1.601 0.63,-2.481 L -21.813,113 2.609,113 c 18.605,0 31.221,-3.28 38.569,-10.028 7.49,-6.884 9.827,-17.891 6.947,-32.719 L 34.945,2.428 C 34.671,1.018 33.437,0 32,0 L 0,0 Z"
-                          id="path3494" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-                      </g>
-                      <g id="g3496" transform="translate(293.6611,271.0571)">
-                        <path
-                          d="m 0,0 -31.5,0 c -2.873,0 -5.342,-2.036 -5.89,-4.855 l -28.328,-145.751 c -0.342,-1.759 0.12,-3.578 1.26,-4.961 1.14,-1.383 2.838,-2.183 4.63,-2.183 l 31.5,0 c 2.872,0 5.342,2.036 5.89,4.855 l 15.283,78.645 20.229,0 c 9.363,0 11.328,-2 11.407,-2.086 0.568,-0.611 1.315,-3.441 0.082,-9.781 l -12.531,-64.489 c -0.342,-1.759 0.12,-3.578 1.26,-4.961 1.14,-1.383 2.838,-2.183 4.63,-2.183 l 32,0 c 2.872,0 5.342,2.036 5.89,4.855 l 13.179,67.825 c 3.093,15.921 0.447,27.864 -7.861,35.5 -7.928,7.281 -21.208,10.82 -40.599,10.82 l -20.784,0 6.143,31.605 C 6.231,-5.386 5.77,-3.566 4.63,-2.184 3.49,-0.801 1.792,0 0,0 m 0,-6 -7.531,-38.75 28.062,0 c 17.657,0 29.836,-3.082 36.539,-9.238 6.703,-6.16 8.711,-16.141 6.032,-29.938 l -13.18,-67.824 -32,0 12.531,64.488 c 1.426,7.336 0.902,12.34 -1.574,15.008 -2.477,2.668 -7.746,4.004 -15.805,4.004 l -25.176,0 -16.226,-83.5 -31.5,0 L -31.5,-6 0,-6"
-                          id="path3498" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-                      </g>
-                      <g id="g3500" transform="translate(409.5498,145.3066)">
-                        <path
-                          d="m 0,0 c 12.065,0 21.072,2.225 26.771,6.611 5.638,4.34 9.532,11.861 11.574,22.353 1.903,9.806 1.178,16.653 -2.155,20.348 C 32.783,53.086 25.417,55 14.297,55 L -4.984,55 -15.673,0 0,0 Z m -63.062,-67.75 c -0.895,0 -1.745,0.4 -2.314,1.092 -0.57,0.691 -0.802,1.601 -0.631,2.48 L -37.679,81.573 C -37.404,82.982 -36.17,84 -34.733,84 L 26.32,84 C 45.509,84 59.79,78.79 68.768,68.513 77.793,58.183 80.579,43.742 77.051,25.592 75.613,18.198 73.144,11.331 69.709,5.183 66.27,-0.972 61.725,-6.667 56.198,-11.747 49.582,-17.939 42.094,-22.429 33.962,-25.071 25.959,-27.678 15.681,-29 3.414,-29 l -24.723,0 -7.057,-36.322 c -0.275,-1.41 -1.509,-2.428 -2.946,-2.428 l -31.75,0 z"
-                          id="path3502" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-                      </g>
-                      <g id="g3504" transform="translate(407.0391,197.3071)">
-                        <path
-                          d="M 0,0 16.808,0 C 30.229,0 34.891,-2.945 36.475,-4.7 39.104,-7.614 39.6,-13.758 37.91,-22.466 36.012,-32.217 32.493,-39.13 27.452,-43.012 22.29,-46.986 13.898,-49 2.511,-49 L -9.522,-49 0,0 Z m 28.831,35 -61.054,0 c -2.872,0 -5.341,-2.036 -5.889,-4.855 L -66.44,-115.606 c -0.342,-1.759 0.12,-3.578 1.259,-4.961 1.14,-1.383 2.838,-2.183 4.63,-2.183 l 31.75,0 c 2.872,0 5.342,2.036 5.89,4.855 l 6.587,33.895 22.249,0 c 12.582,0 23.174,1.372 31.479,4.077 8.541,2.775 16.401,7.481 23.356,13.986 5.752,5.291 10.488,11.23 14.078,17.655 3.591,6.427 6.171,13.594 7.668,21.302 3.715,19.105 0.697,34.403 -8.969,45.467 C 63.965,29.444 48.924,35 28.831,35 m -45.632,-90 19.312,0 c 12.801,0 22.336,2.411 28.601,7.234 6.267,4.824 10.492,12.875 12.688,24.157 2.102,10.832 1.145,18.476 -2.871,22.929 C 36.909,3.773 28.87,6 16.808,6 L -4.946,6 -16.801,-55 M 28.831,29 C 47.198,29 60.597,24.18 69.019,14.539 77.441,4.898 79.976,-8.559 76.616,-25.836 75.233,-32.953 72.894,-39.46 69.601,-45.355 66.304,-51.254 61.999,-56.648 56.679,-61.539 50.339,-67.472 43.296,-71.7 35.546,-74.218 27.796,-76.743 17.925,-78 5.925,-78 l -27.196,0 -7.53,-38.75 -31.75,0 28.328,145.75 61.054,0"
-                          id="path3506" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-                      </g>
-                    </g>
-                  </g>
-                </g>
-              </svg>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article>
-        <h3 class="flex justify-center p-2 font-semibold text-cyan-300">Framework</h3>
-        <div class="grid justify-center">
-          <div class="flex flex-wrap content-center">
-            <div class="m-1 md:m-5">
-              <svg class="w-16 md:w-20" viewBox="0 0 256 221" xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="xMinYMin meet">
-                <path d="M204.8 0H256L128 220.8 0 0h97.92L128 51.2 157.44 0h47.36z" fill="#41B883" />
-                <path d="M0 0l128 220.8L256 0h-51.2L128 132.48 50.56 0H0z" fill="#41B883" />
-                <path d="M50.56 0L128 133.12 204.8 0h-47.36L128 51.2 97.92 0H50.56z" fill="#35495E" />
-              </svg>
-            </div>
-            <div class="m-1 md:m-5">
-              <svg class="w-16 md:w-20" viewBox="0 0 256 257" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet"><circle fill="#1A171B" cx="128" cy="128.827" r="128"/><path d="M183.706 48.124c-12.986.453-24.32 7.61-32.757 17.51-9.342 10.855-15.557 23.73-20.035 36.872-8.01-6.565-14.19-15.064-27.041-18.77-9.933-2.852-20.366-1.674-29.96 5.474-4.545 3.395-7.676 8.527-9.165 13.351-3.855 12.537 4.053 23.694 7.645 27.7l7.853 8.416c1.619 1.65 5.518 5.955 3.612 12.127-2.06 6.71-10.15 11.055-18.448 8.495-3.706-1.13-9.03-3.891-7.838-7.779.493-1.59 1.631-2.78 2.241-4.155.56-1.181.827-2.067.997-2.587 1.516-4.95-.555-11.39-5.857-13.025-4.946-1.516-10.007-.315-11.969 6.054-2.225 7.235 1.237 20.366 19.783 26.084 21.729 6.676 40.11-5.155 42.717-20.586 1.642-9.665-2.722-16.845-10.717-26.08l-6.514-7.204c-3.946-3.942-5.301-10.661-1.217-15.825 3.446-4.356 8.354-6.215 16.392-4.029 11.733 3.186 16.963 11.327 25.69 17.893-3.603 11.819-5.958 23.682-8.09 34.32l-1.299 7.931c-6.238 32.721-11 50.688-23.375 61.003-2.493 1.773-6.057 4.427-11.429 4.612-2.816.087-3.726-1.85-3.765-2.694-.067-1.977 1.599-2.883 2.706-3.773 1.654-.902 4.155-2.398 3.985-7.191-.18-5.664-4.872-10.575-11.654-10.35-5.08.173-12.823 4.954-12.532 13.705.303 9.039 8.728 15.813 21.43 15.384 6.79-.233 21.952-2.997 36.895-20.76 17.392-20.362 22.256-43.705 25.915-60.79l4.084-22.556c2.269.272 4.695.453 7.334.516 21.661.457 32.496-10.763 32.657-18.924.107-4.939-3.241-9.799-7.928-9.689-3.355.095-7.57 2.328-8.582 6.968-.988 4.552 6.893 8.66.733 12.65-4.376 2.832-12.221 4.828-23.269 3.206l2.009-11.103c4.1-21.055 9.157-46.954 28.341-47.584 1.398-.071 6.514.063 6.633 3.446.035 1.13-.245 1.418-1.568 4.005-1.347 2.017-1.855 3.734-1.792 5.707.185 5.376 4.273 8.909 10.185 8.696 7.916-.256 10.193-7.963 10.063-11.921-.32-9.3-10.122-15.175-23.1-14.75z" fill="#FFF"/></svg>
-            </div>
-            <div class="m-1 md:m-5">
-              <svg class="fill-purple-900 w-16 md:w-24" viewBox="0 0 512 407.864" xmlns="http://www.w3.org/2000/svg"><path d="m106.344 0c-29.214 0-50.831 25.57-49.863 53.3.929 26.641-.278 61.145-8.964 89.283-8.717 28.217-23.449 46.098-47.517 48.393v25.912c24.068 2.3 38.8 20.172 47.516 48.393 8.687 28.138 9.893 62.642 8.964 89.283-.968 27.726 20.649 53.3 49.868 53.3h299.347c29.214 0 50.827-25.57 49.859-53.3-.929-26.641.278-61.145 8.964-89.283 8.717-28.221 23.413-46.1 47.482-48.393v-25.912c-24.068-2.3-38.764-20.172-47.482-48.393-8.687-28.134-9.893-62.642-8.964-89.283.968-27.726-20.645-53.3-49.859-53.3h-299.355zm240.775 251.067c0 38.183-28.481 61.34-75.746 61.34h-80.458a8.678 8.678 0 0 1 -8.678-8.678v-199.593a8.678 8.678 0 0 1 8.678-8.678h80c39.411 0 65.276 21.348 65.276 54.124 0 23.005-17.4 43.6-39.567 47.208v1.2c30.176 3.31 50.495 24.21 50.495 53.077zm-84.519-128.1h-45.876v64.8h38.639c29.87 0 46.34-12.028 46.34-33.527-.003-20.148-14.163-31.273-39.103-31.273zm-45.876 90.511v71.411h47.564c31.1 0 47.573-12.479 47.573-35.931s-16.935-35.484-49.573-35.484h-45.564z" fill-rule="evenodd"/></svg>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article>
-        <h3 class="flex justify-center p-2 font-semibold text-cyan-300">Outils</h3>
-        <div class="grid justify-center">
-          <div class="flex flex-wrap content-center">
-            <div class="m-1 md:m-5">
-              <svg class="w-16 md:w-24" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet"><path d="M251.172 116.594L139.4 4.828c-6.433-6.437-16.873-6.437-23.314 0l-23.21 23.21 29.443 29.443c6.842-2.312 14.688-.761 20.142 4.693 5.48 5.489 7.02 13.402 4.652 20.266l28.375 28.376c6.865-2.365 14.786-.835 20.269 4.657 7.663 7.66 7.663 20.075 0 27.74-7.665 7.666-20.08 7.666-27.749 0-5.764-5.77-7.188-14.235-4.27-21.336l-26.462-26.462-.003 69.637a19.82 19.82 0 0 1 5.188 3.71c7.663 7.66 7.663 20.076 0 27.747-7.665 7.662-20.086 7.662-27.74 0-7.663-7.671-7.663-20.086 0-27.746a19.654 19.654 0 0 1 6.421-4.281V94.196a19.378 19.378 0 0 1-6.421-4.281c-5.806-5.798-7.202-14.317-4.227-21.446L81.47 39.442l-76.64 76.635c-6.44 6.443-6.44 16.884 0 23.322l111.774 111.768c6.435 6.438 16.873 6.438 23.316 0l111.251-111.249c6.438-6.44 6.438-16.887 0-23.324" fill="#DE4C36"/></svg>
-            </div>
-            <div class="m-1 md:m-5">
-              <svg class="fill-blue-300 w-16 md:w-24" viewBox="-.557 117.607 598.543 423.631" xmlns="http://www.w3.org/2000/svg"><g><path d="m592.162 277.804c-1.664-1.37-16.642-12.597-48.815-12.597-8.321 0-16.92.822-25.24 2.191-6.102-41.898-41.327-62.162-42.714-63.257l-8.598-4.93-5.547 7.942c-6.934 10.68-12.204 22.729-15.255 35.052-5.824 23.824-2.219 46.279 9.985 65.447-14.7 8.216-38.553 10.133-43.545 10.406h-393.853c-10.262 0-18.583 8.216-18.583 18.348-.554 33.956 5.27 67.912 17.197 99.951 13.59 35.052 33.838 61.067 59.91 76.95 29.4 17.799 77.383 27.931 131.468 27.931 24.408 0 48.815-2.19 72.946-6.572 33.56-6.025 65.734-17.526 95.412-34.23a260.485 260.485 0 0 0 64.902-52.577c31.342-34.778 49.925-73.663 63.515-108.167h5.547c34.116 0 55.195-13.418 66.844-24.92 7.766-7.12 13.59-15.882 17.751-25.74l2.497-7.12z"/><path d="m55.193 306.83h52.698c2.497 0 4.716-1.916 4.716-4.654v-46.553c0-2.465-1.942-4.655-4.716-4.655h-52.698c-2.496 0-4.715 1.916-4.715 4.655v46.553c.277 2.738 2.219 4.655 4.715 4.655zm72.668 0h52.699c2.496 0 4.715-1.916 4.715-4.654v-46.553c0-2.465-1.942-4.655-4.715-4.655h-52.7c-2.496 0-4.715 1.916-4.715 4.655v46.553c.278 2.738 2.22 4.655 4.715 4.655m74.055 0h52.699c2.496 0 4.715-1.917 4.715-4.655v-46.553c0-2.465-1.942-4.655-4.715-4.655h-52.699c-2.496 0-4.715 1.916-4.715 4.655v46.553c0 2.738 1.942 4.655 4.715 4.655zm72.946 0h52.699c2.496 0 4.715-1.917 4.715-4.655v-46.553c0-2.465-1.942-4.655-4.715-4.655h-52.699c-2.496 0-4.715 1.916-4.715 4.655v46.553c0 2.738 2.219 4.655 4.715 4.655zm-147-66.543h52.698c2.496 0 4.715-2.19 4.715-4.655v-46.553c0-2.465-1.942-4.656-4.715-4.656h-52.699c-2.496 0-4.715 1.917-4.715 4.656v46.553c.278 2.464 2.22 4.655 4.715 4.655m74.055 0h52.699c2.496 0 4.715-2.19 4.715-4.655v-46.553c0-2.465-1.942-4.656-4.715-4.656h-52.699c-2.496 0-4.715 1.917-4.715 4.656v46.553c0 2.464 1.942 4.655 4.715 4.655m72.946 0h52.699c2.496 0 4.715-2.19 4.715-4.655v-46.553c0-2.465-2.22-4.656-4.715-4.656h-52.699c-2.496 0-4.715 1.917-4.715 4.656v46.553c0 2.464 2.219 4.655 4.715 4.655m0-66.817h52.699c2.496 0 4.715-1.917 4.715-4.655v-46.553c0-2.465-2.22-4.656-4.715-4.656h-52.699c-2.496 0-4.715 1.917-4.715 4.656v46.553c0 2.464 2.219 4.655 4.715 4.655m73.5 133.36h52.699c2.496 0 4.715-1.917 4.715-4.655v-46.553c0-2.465-1.941-4.655-4.715-4.655h-52.698c-2.497 0-4.716 1.916-4.716 4.655v46.553c.278 2.738 2.22 4.655 4.716 4.655"/></g></svg>
-            </div>
-            <div class="m-1 md:m-5">
-            </div>
-          </div>
-        </div>
-      </article>
-    </section>
+
     <section>
       <h3 id="projects"
         class="text-xl font-semibold m-2 p-4 font-serif flex justify-center text-teal-100 hover:underline underline-offset-4 hover:font-bold hover:text-teal-200">
         Mes projets web</h3>
       <article>
+        
+
+
 
       </article>
     </section>

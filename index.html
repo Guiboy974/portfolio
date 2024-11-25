@@ -5,8 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="portfolio d'un développeur web et web mobile de Guillaume Boyer">
-  <link rel="stylesheet" href="styles.css">
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="main.js"></script>
   <title>Portfolio Guillaume Boyer</title>
 </head>
 
@@ -44,7 +45,8 @@
           </div>
           <div class="flex flex-1 items-center justify-center sm:justify-start">
             <div class="block w-20">
-              <img src="/images/AlbedoBase_XL_Graphics_design_logo_with_blue_tons_and_transpar_1-removebg-preview.png" alt="logo Guillaume Boyer">
+              <img src="/images/AlbedoBase_XL_Graphics_design_logo_with_blue_tons_and_transpar_1-removebg-preview.png"
+                alt="logo Guillaume Boyer">
             </div>
             <div class="hidden sm:ml-6 sm:block">
               <div class="flex space-x-4">
@@ -93,29 +95,39 @@
       </div>
     </div>
   </header>
-  <section class="bg-black scroll flex" style="--t:20s">
-    <div class="flex py-6 items-center gap-x-4 md:gap-x-8 z-0">
-      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/html-1.svg" alt="html">
-      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/css-3.svg" alt="css">
-      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/javascript-1.svg" alt="js">
-      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/PHP-logo.svg" alt="php">
-      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/bootstrap-5-1.svg" alt="bootstrap">
-      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/vue-9.svg" alt="vue">
-      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/symfony.svg" alt="symfony">
-      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/git-icon.svg" alt="git">
-      <img class="max-h-16 w-auto mx-1 object-contain" src="/images/techno/docker-4.svg" alt="docker">
+  <section class="bg-black flex" style="--t:10s">
+    <div class="w-1/4 flex flex-col text-center justify-center">
+      <h2 class="font-bold text-xl">EXP</h2>
+      <p>Junior</p>
     </div>
-    <div class="flex py-6 items-center gap-x-4 md:gap-x-8 z-0">
-      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/html-1.svg" alt="html">
-      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/css-3.svg" alt="css">
-      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/javascript-1.svg" alt="js">
-      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/PHP-logo.svg" alt="php">
-      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/bootstrap-5-1.svg" alt="bootstrap">
-      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/vue-9.svg" alt="vue">
-      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/symfony.svg" alt="symfony">
-      <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/git-icon.svg" alt="git">
-      <img class="max-h-16 w-auto mx-1 object-contain" src="/images/techno/docker-4.svg" alt="docker">
+    <div class="w-1/4 flex flex-col text-center justify-center">
+      <h2 class="font-bold text-xl">Projets : <span id="projects"></span></h2>
     </div>
+    <div class="scroll flex" style="--t:20s">
+      <div class="flex justify-end py-6 items-center gap-x-4 md:gap-x-8 z-0">
+        <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/html-1.svg" alt="html">
+        <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/css-3.svg" alt="css">
+        <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/javascript-1.svg" alt="js">
+        <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/PHP-logo.svg" alt="php">
+        <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/bootstrap-5-1.svg" alt="bootstrap">
+        <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/vue-9.svg" alt="vue">
+        <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/symfony.svg" alt="symfony">
+        <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/git-icon.svg" alt="git">
+        <img class="max-h-16 w-auto mx-1 object-contain" src="/images/techno/docker-4.svg" alt="docker">
+      </div>
+      <!-- <div class="flex justify-end py-6 items-center gap-x-4 md:gap-x-8 z-0">
+        <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/html-1.svg" alt="html">
+        <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/css-3.svg" alt="css">
+        <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/javascript-1.svg" alt="js">
+        <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/PHP-logo.svg" alt="php">
+        <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/bootstrap-5-1.svg" alt="bootstrap">
+        <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/vue-9.svg" alt="vue">
+        <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/symfony.svg" alt="symfony">
+        <img class="max-h-12 w-auto mx-1 object-contain" src="/images/techno/git-icon.svg" alt="git">
+        <img class="max-h-16 w-auto mx-1 object-contain" src="/images/techno/docker-4.svg" alt="docker">
+      </div>
+    </div> -->
+
   </section>
   <main>
     <section class="md:pb-8 bg-orange-100 shadow-md shadow-white">
@@ -135,18 +147,17 @@
           Architecto repudiandae non odit blanditiis laboriosam explicabo quis nobis dolores nisi recusandae
           expedita iste at, ullam ducimus possimus praesentium sequi eius earum nulla! Nulla corporis magni
           aperiam ipsum cupiditate beatae!</p>
-      </div>    
+      </div>
     </section>
 
     <section>
-      <h3 id="projects"
-        class="text-xl font-semibold m-2 p-4 font-serif flex justify-center text-teal-100 hover:underline underline-offset-4 hover:font-bold hover:text-teal-200">
+      <h3 class="text-xl font-semibold m-2 p-4 font-serif flex justify-center text-teal-100 hover:underline underline-offset-4 hover:font-bold hover:text-teal-200">
         Mes projets web</h3>
-      <article>
-        
-
-
-
+      <article class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8" id="projects">
+      
+          <div class="projectElement grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+          </div>
+ 
       </article>
     </section>
     <section class="mb-5 grid justify-center">
@@ -206,28 +217,5 @@
       </svg></a>
   </footer>
 </body>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const burgerButton = document.getElementById('burgerButton');
-    const mobileMenu = document.getElementById('mobile-menu');
-    const burgerIcon = document.getElementById('burgerIcon');
-    const closeIcon = document.getElementById('closeIcon');
-
-    burgerButton.addEventListener('click', function () {
-      const isOpen = mobileMenu.classList.contains('hidden');
-
-      if (isOpen) {
-        mobileMenu.classList.remove('hidden'); // Affiche le menu
-        burgerIcon.classList.add('hidden'); // Cache l'icône burger
-        closeIcon.classList.remove('hidden'); // Affiche l'icône de fermeture
-      } else {
-        mobileMenu.classList.add('hidden'); // Cache le menu
-        burgerIcon.classList.remove('hidden'); // Affiche l'icône burger
-        closeIcon.classList.add('hidden'); // Cache l'icône de fermeture
-      }
-    });
-  });
-</script>
 
 </html>

@@ -5,39 +5,46 @@
 .scroll {
     overflow: hidden;
     width: 100%;
+    /* mask-image: linear-gradient(
+        to right,
+        transparent,
+        black 10% 90%,
+        transparent
+    ); */
+
 }
 
 .scroll div {
     white-space: nowrap;
     will-change: transform;
-    animation: animate var(--t) linear infinite;
-    /* animation-delay: calc(var(--t) * -1); */
+    /* animation: animate var(--t) linear infinite; */
+}
+
+/* .scroll div:nth-child(2) {
+    white-space: nowrap;
+    will-change: transform;
+    animation: animate2 var(--t) linear infinite;
 }
 @keyframes animate {
     0% {
-        transform: translateX(0);
+        transform: translateX(0%);
     }
     100% {
         transform: translateX(-100%);
     }
-}
-
-.scroll div:nth-child(2){
-    animation: animate2 var(--t) linear infinite;
-    /* animation-delay: calc(var(--t) / -2); */
 }
 @keyframes animate2 {
     0% {
         transform: translateX(100%);
     }
     100% {
-        transform: translateX(0);
+        transform: translateX(0%);
     }
 }
 
 .scroll:hover > div {
     animation-play-state: paused;
-}
+} */
 
 /* clear both? */
 

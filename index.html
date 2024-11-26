@@ -151,14 +151,22 @@
     </section>
 
     <section>
-      <h3 class="text-xl font-semibold m-2 p-4 font-serif flex justify-center text-teal-100 hover:underline underline-offset-4 hover:font-bold hover:text-teal-200">
+      <h3
+        class="text-xl font-semibold m-2 p-4 font-serif flex justify-center text-teal-100 hover:underline underline-offset-4 hover:font-bold hover:text-teal-200">
         Mes projets web</h3>
-      <article class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8" id="projects">
-      
-          <div class="projectElement grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-          </div>
- 
+      <article class="relative flex justify-center mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8" id="projects">
+
+        <div
+          class="projectElement grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+        </div>
+        
+        <!-- The Modal -->
+        <div id="myModal" class="modal flex flex-col hidden absolute top-32 m-auto w-md-3/4 z-10">
+          <span class="close text-4xl w-full text-right">&times;</span>
+          <img class="modal-content w-full block" id="imgProj">
+        </div>
       </article>
+
     </section>
     <section class="mb-5 grid justify-center">
       <h3 id="contact"

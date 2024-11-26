@@ -1,3 +1,4 @@
+// menu burger
 document.addEventListener('DOMContentLoaded', function () {
     const burgerButton = document.getElementById('burgerButton');
     const mobileMenu = document.getElementById('mobile-menu');
@@ -19,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+// recupere et affiche les projets
 const response = await fetch("projects.json");
 const projects = await response.json();
 
@@ -51,5 +53,26 @@ for (let i = 0; i < projects.length; i++) {
     artElement.appendChild(githubProject);
 
 }
+
+// ouverture des img projet dans une modal
+const modal = document.getElementById("myModal");
+const imgModal = document.getElementById("imgProj");
+const imgProjets = document.getElementsByClassName("aspect-square");
+const closeBtn = document.getElementsByClassName("close")[0];
+
+function ouvrirModal(event) {
+  modal.classList.toggle("hidden");
+  imgModal.setAttribute("src", event.target.src);
+  projectElement.classList.toggle("blur-sm")
+}
+
+for (let i = 0; i < imgProjets.length; i++) {
+  imgProjets[i].addEventListener("click", ouvrirModal)
+}
+
+closeBtn.addEventListener("click", () => {
+  modal.classList.toggle("hidden");
+  projectElement.classList.toggle("blur-sm")
+})
 
 
